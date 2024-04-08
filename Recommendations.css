@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+
+    background-color: #d3e3fd;
+    margin: 0%;
+    font-family: 'Montserrat';
+}
+
+section {
+    color:#f1c232ff;
+    background-color:#0941ad;
+    text-decoration: underline;
+    text-decoration-color: #f1c232ff;
+    height: auto;
+    width:auto;
+    text-align:center;
+    padding: 10px;
+    font-size:35px;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: right;
+    color:silver;
+    margin:0px 30px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: left;
+    margin:0px 30px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+}
+
+h3 {
+    text-align: center;  
+    margin: 20px;
+    font-size: 25px;
+}
+
+.MX5 {
+    width: 100%;
+
+}
+
+.MazdaTitle {
+    width: 40%;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #1b9bb2;
+    color: #1b9bb2;
+    font-weight: bold;
+}
+
+
+.cardstl {
+    width: 70%;
+    border: 3px solid blue;
+    background-color: rgb(146, 188, 255);
+    padding: 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: left;
+}
+
+.BRZ {
+    width: 100%;
+
+}
+
+.SubaruTitle {
+    width: 40%;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #1b9bb2;
+    color: #1b9bb2;
+    font-weight: bold;
+}
+
+
+.nav-list {
+    color: silver;
+    text-decoration-color: silver;
+
+    
+}
+
+.nav-list {
+    color: silver;
+    text-decoration-color: silver;
+
+    
+}
+
+nav {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.368);
+    justify-content: space-between;
+    list-style: none;
+    font-size:14px;
+}
+
+nav li {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 70px;
+    font-size: 14px;
+    text-align: center;
+}
+ 
+nav li a {
+    text-decoration: underline;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    width: auto;
+    margin-left: 20px;
+}
+ 
+nav li a:hover{
+    color: gold;
+    text-align: center;
+}

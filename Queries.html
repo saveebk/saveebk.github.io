@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Best Sporty First Car Guide</title>
+            <link rel="stylesheet" href="Queries.css">
+    </head>
+    <body>
+       <section>
+            <h1><a href="index.html" class="Title"> Sporty First Cars</a></h1>
+            <h4><a href="" style="color: silver;">About Us</a></h4>
+            <ul class="nav-list"></ul>
+        <div class="container">
+            
+            <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Car Recommendations Page.html">Recommendations</a></li>
+            <li><a href="What to Look for.html">What to look for?</a></li>
+            <li><a href="Queries.html">Inquiries</a></li>
+        </nav>
+
+    </div>
+       </section>
+            <h2>What to know more?</h2>
+            <h3>Inquiries</h3>
+            <p>If you have any inquiries about the cars mentioned in the website, please send them here.</p>
+            <br>
+
+              
+                <label for="fullname">Enter your name:</label><br>
+                <input id="fullname"><br>
+                <label for="email">Enter your email address:</label><br>
+                <input id="email"><br>
+                <label for="Question">Tell us how we can help you:</label><br>
+                <textarea id="Question"></textarea><br>
+                <button id="Qbutton">
+                    Submit
+                  </button>
+                <span class="java">
+                    <p id="message"></p>    
+                </span>
+
+<script>
+
+function Question() {
+  // Put your code here
+  if (fullname.value == "" || email.value=="") {
+    message.textContent = "";
+    alert("Name and email address must be filled out");
+  }
+  else{
+    message.textContent = "Sent! We will reply to you on "+ email.value;
+  }
+
+}
+
+Qbutton.onclick = Question;
+</script>
+    </body>
+</html>
