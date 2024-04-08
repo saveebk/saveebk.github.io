@@ -134,13 +134,15 @@ p {
     font-size: 20px;
     width: 90%;
     margin-right: 380px;
+    line-height: 1.5;
+
 }
 
 .MazdaTitle {
-    color: #ff0000;
+    color: rgb(0, 64, 255);
     font-weight: bold;
     font-size: 35px;
-    border-bottom: 5px solid #ff00007b;
+    border-bottom: 5px solid #0040ff7b;
 }
 
 .money {
@@ -169,12 +171,13 @@ p {
 .VWTopic {
     font-size: 20px;
     width: 90%;
+    line-height: 1.5;
 }
 
 .VWTitle {
-    color: #9900ff;
+    color: #0099ff;
     font-weight: bold;
     font-size: 35px;
-    border-bottom: 5px solid #9900ff7b;
+    border-bottom: 5px solid #0099ff7b;
 }
 
